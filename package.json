@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "nyc --reporter=text-summary mocha --reporter=nyan --bail",
+    "test": "mocha --reporter=nyan --bail",
+    "test-coverage": "nyc --reporter=text-summary mocha --reporter=nyan --bail",
     "start": "node server.js"
   },
   "author": "",
